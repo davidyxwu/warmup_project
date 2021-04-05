@@ -19,4 +19,9 @@ When 90 degrees is reached, the robot stops turning.
 #### driveSquare()
 This function makes the robot drive in a square by driving forward and turning 4 times.
 #### run()
-This function continuouly runs driveSquare() until we stop the robot. 
+This function continuouly runs driveSquare() until we stop the robot.
+
+### Gif
+Gif of driving in a square:
+![drive_square gif]
+(/gifs/drive_square.gif)
