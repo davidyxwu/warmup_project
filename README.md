@@ -22,5 +22,4 @@ This function makes the robot drive in a square by driving forward and turning 4
 This function continuouly runs driveSquare() until we stop the robot.
 
 ### Gif
-Gif of driving in a square:
 ![drive_square gif](https://github.com/davidyxwu/warmup_project/blob/main/gifs/drive_square.gif)
