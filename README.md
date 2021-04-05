@@ -24,4 +24,4 @@ This function continuouly runs driveSquare() until we stop the robot.
 ### Gif
 Gif of driving in a square:
 ![drive_square gif]
-(/gifs/drive_square.gif)
+(./gifs/drive_square.gif)
