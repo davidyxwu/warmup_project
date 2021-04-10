@@ -24,6 +24,17 @@ This function continuouly runs driveSquare() until we stop the robot.
 ### Gif
 ![drive_square gif](https://github.com/davidyxwu/warmup_project/blob/main/gifs/drive_square.gif)
 
+## Person Follower
+### High level description
+TODO
+
+### Code explanation
+#### __init__
+TODO
+
+### Gif
+![wall_follower gif](https://github.com/davidyxwu/warmup_project/blob/main/gifs/person_follower.gif)
+
 ## Wall Follower
 ### High level description
 For this problem, I used a combination of proportional control for angular velocity, as well as the /scan topic to detect walls.
