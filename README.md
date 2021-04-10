@@ -23,3 +23,27 @@ This function continuouly runs driveSquare() until we stop the robot.
 
 ### Gif
 ![drive_square gif](https://github.com/davidyxwu/warmup_project/blob/main/gifs/drive_square.gif)
+
+## Wall Follower
+### High level description
+For this problem, I used a combination of proportional control for angular velocity, as well as the /scan topic to detect walls.
+I kept track of how close the wall was in two regions: the front and right side of the robot.
+I wanted to keep the robot a certain distance away from the wall with regards to the right side, while turning left when 
+the robot approached a wall with respect to the front.
+
+### Code explanation
+#### __init__
+This function serves as the constructor for a node instance. 
+It initiates the node, sets up the Twist() publisher and LaserScan subscriber which sends its information to the self.process_scan function.
+It also initiates the parameters (distance from wall, etc.)
+#### process_scan()
+This function recieves from callback information from the LaserScan.
+It keeps track of two variables, front_min and right_min representing the minimum distances from the wall from the robot's front and right sides.
+The robot is set up into 3 stages. First, the robot must find the wall. For this, we make the robot move forward and right slightly until we reach the thresholds to begin tracing the wall.
+When the robot is within turning distance, we enter the turning stage and make the robot turn with a large angular velocity.
+When the robot is moving forward along the wall, we keep the robot parallel with proportional control with respect to distance from the wall on the right. 
+#### run()
+This function continuouly runs until we stop the robot.
+
+### Gif
+![wall_follower gif](https://github.com/davidyxwu/warmup_project/blob/main/gifs/wall_follower.gif)
