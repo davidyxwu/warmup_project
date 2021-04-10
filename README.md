@@ -58,3 +58,10 @@ This function continuouly runs until we stop the robot.
 
 ### Gif
 ![wall_follower gif](https://github.com/davidyxwu/warmup_project/blob/main/gifs/wall_follower.gif)
+
+## Challenges
+TODO
+## Future Work
+TODO
+## Takeaways
+TODO
