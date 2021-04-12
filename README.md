@@ -86,6 +86,8 @@ This means adding options for the user to adjust speed etc. to make the robot mo
 One last improbement I would like to implement is more dynamic behavior for edge cases.
 For example, I would like to make the wall_follower adjust correctly if it accidentally bumps into a wall, or in person follower, if the robot loses sight of the object.
 ## Takeaways
-Markup : *Robot programming is hard. There are a lot of physical factors and noise to take into account, many of which I discovered while working on the project. As such, it is important to test and have strategies for handling edge cases.
-*The proportional constant is very sensitive to small changes. Changing the proportional constant slightly makes a huge difference, and it is important to think about what behavior I want, and to test many values before settling on a proportional constant.
-*OOP makes my code better organized, especially in robotics programming, where OOP principles arise naturally.
+-Robot programming is hard. There are a lot of physical factors and noise to take into account, many of which I discovered while working on the project. As such, it is important to test and have strategies for handling edge cases.
+
+-The proportional constant is very sensitive to small changes. Changing the proportional constant slightly makes a huge difference, and it is important to think about what behavior I want, and to test many values before settling on a proportional constant.
+
+-OOP makes my code better organized, especially in robotics programming, where OOP principles arise naturally.
